@@ -15,9 +15,8 @@ I picked Champions League data because it is unique (sports) to analyze with fil
 It has clear events (matches), measurable stats (goals), and multiple stages/rounds for comparisons.
 Every requirements are touched and checked by me.
 
-## Links
+## Link
 
-- GitHub repo: https://github.com/NpAvgust/Live-Data-Dashboard-with-Streamlit
 - Streamlit Cloud: https://live-data-dashboard-with-app-hwdxumqslnxy534quqjs69.streamlit.app/
 
 ## Streamlit Dashboard Preview 
