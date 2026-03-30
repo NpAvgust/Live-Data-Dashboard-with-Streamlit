@@ -7,7 +7,8 @@ I found public github football dataset and processed it with pandas to build int
 
 - Source (github): https://github.com/footballcsv/europe-champions-league  
 - Direct file: https://github.com/footballcsv/europe-champions-league/blob/master/2015-16/champs.csv
-- Dataset file in: `task1/data/dataset-unique(sport-football-2015-16).csv`
+- Dataset file in: `Live-Data-Dashboard-with-Streamlit
+/data/dataset-unique(sport-football-2015-16).csv`
 
 ## Why I chose this dataset
 
