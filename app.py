@@ -101,7 +101,9 @@ def filter_df(df: pd.DataFrame, stages, rounds, team: str, start_d, end_d) -> pd
         out = out[out["Stage"].isin(stages)]
     if rounds:
         out = out[out["Round"].isin(rounds)]
-    out = out[(out["match_date"].dt.date >= start_d) & (out["match_date"].dt.date <= end_d)]
+    start_ts = pd.to_datetime(start_d, errors="coerce")
+    end_ts = pd.to_datetime(end_d, errors="coerce")
+    out = out[(out["match_date"] >= start_ts) & (out["match_date"] <= end_ts)]
     if team:
         out = out[(out["home_team"] == team) | (out["away_team"] == team)]
     return out
